@@ -12,33 +12,42 @@ namespace ConsoleApp2.Tests
     public class LogicTests
     {
         [TestMethod()]
-        public void firstTest()
+        public void maxInEnd()
         {
-            int numb = 879;
-
-            var message = Logic.Compare(numb);
+            var message = Logic.FindMaxDigit(879);
 
             Assert.AreEqual("Наибольшее 9", message);
         }
 
         [TestMethod()]
-        public void secondTest()
+        public void maxInMiddle()
         {
-            int numb = 672;
-
-            var message = Logic.Compare(numb);
+            var message = Logic.FindMaxDigit(672);
 
             Assert.AreEqual("Наибольшее 7", message);
         }
 
         [TestMethod()]
-        public void thirdTest()
+        public void maxInStart()
         {
-            int numb = 345;
-
-            var message = Logic.Compare(numb);
+            var message = Logic.FindMaxDigit(345);
 
             Assert.AreEqual("Наибольшее 5", message);
+        }
+
+        [TestMethod()]
+        public void twoMaxNumbers()
+        {
+            var message = Logic.FindMaxDigit(992);
+
+            Assert.AreEqual("Наибольшее 9", message);
+        }
+        [TestMethod()]
+        public void allNumbersMax()
+        {
+            var message = Logic.FindMaxDigit(777);
+
+            Assert.AreEqual("Наибольшее 7", message);
         }
     }
 }

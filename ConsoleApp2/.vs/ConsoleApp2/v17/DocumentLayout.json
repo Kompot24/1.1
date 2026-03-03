@@ -1,9 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\dz\\\u0421#\\1.1\\ConsoleApp2\\",
+  "WorkspaceRootPath": "E:\\dz\\C#\\1.1\\ConsoleApp2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0EAE4AB3-70EF-4EE4-AED5-CD084C57D25A}|ConsoleApp2.csproj|d:\\dz\\\u0441#\\1.1\\consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4B6AD4D-66CD-4ED6-A136-D90ACFA564B5}|..\\ConsoleApp2Tests\\ConsoleApp2Tests.csproj|e:\\dz\\c#\\1.1\\consoleapp2tests\\logictests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAE4AB3-70EF-4EE4-AED5-CD084C57D25A}|ConsoleApp2.csproj|e:\\dz\\c#\\1.1\\consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EAE4AB3-70EF-4EE4-AED5-CD084C57D25A}|ConsoleApp2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,12 +22,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LogicTests.cs",
+              "DocumentMoniker": "E:\\dz\\C#\\1.1\\ConsoleApp2Tests\\LogicTests.cs",
+              "RelativeDocumentMoniker": "..\\ConsoleApp2Tests\\LogicTests.cs",
+              "ToolTip": "E:\\dz\\C#\\1.1\\ConsoleApp2Tests\\LogicTests.cs",
+              "RelativeToolTip": "..\\ConsoleApp2Tests\\LogicTests.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T04:55:53.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\dz\\\u0421#\\1.1\\ConsoleApp2\\Program.cs",
+              "DocumentMoniker": "E:\\dz\\C#\\1.1\\ConsoleApp2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\dz\\\u0421#\\1.1\\ConsoleApp2\\Program.cs",
+              "ToolTip": "E:\\dz\\C#\\1.1\\ConsoleApp2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAjwB4AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-17T04:22:13.01Z",
               "EditorCaption": ""

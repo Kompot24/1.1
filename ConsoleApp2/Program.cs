@@ -2,12 +2,12 @@
 {
     public class Logic
     {
-        public static string Compare(int numb)
+        public static string FindMaxDigit(int number)
         {
             string outMessage = "";
-            int first = numb / 100;
-            int second = (numb - 100 * first) / 10;
-            int third = numb - (first * 100 + second * 10);
+            int first = number / 100;
+            int second = (number - 100 * first) / 10;
+            int third = number - (first * 100 + second * 10);
             if (first >= second && first >= third)
             {
                 outMessage = $"Наибольшее {first}";
@@ -27,10 +27,11 @@
     {
         static void Main(string[] args)
         {
+            //1.1
             Console.WriteLine("Число: ");
             var numb = int.Parse(Console.ReadLine());
 
-            var outMessage = Logic.Compare(numb);
+            var outMessage = Logic.FindMaxDigit(numb);
 
             Console.WriteLine(outMessage);
         }
